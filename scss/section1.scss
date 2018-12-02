@@ -1,0 +1,167 @@
+.section1{
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+
+  .container{
+    margin: 0;
+    padding: 5vh 0 5vh 7.5vw;
+    display: flex;
+    flex-direction: row;
+    .col{
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .col_left{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      .sec1_1st{
+        width: 22.5vw;
+        height: 20vw;
+        position: absolute;
+        top: 0;
+        left: 6vw;
+      }
+      .sec1_2nd{
+        width: 27.75vw;
+        height: 25vw;
+        position: absolute;
+        top: 0;
+        left: 15.5vw;
+      }
+      .sec1_3rd{
+        width: 14.25vw;
+        height: 12.75vw;
+        position: absolute;
+        top: 12.25vw;
+        left: 37vw;
+      }
+      .sec1_4th{
+        width: 10.75vw;
+        height: 9.75vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .sec1_5th{
+        width: 18vw;
+        height: 15.75vw;
+        position: absolute;
+        top: 25.75vw;
+        left: 25.75vw;
+      }
+    }
+    .col_right{
+      margin: 0;
+      padding: 0;
+      .container{
+        margin: 0;
+        padding: 7.5vw 0;
+        display: flex;
+        flex-direction: column;
+        h1{
+          margin: 0;
+          padding: 0;
+          font-size: 4vw;
+          font-weight: 600;
+        }
+        p{
+          margin: auto;
+          padding: 0;
+          width: 30vw;
+          font-size: 2vw;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-height: 750px) and (max-height: 799px){
+  .section1{
+    .container{
+      padding: 12.5vh 0 12.5vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 999px){
+  .section1{
+    .container{
+      padding: 17.5vh 0 17.5vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (min-height: 1000px) and (max-height: 1500px){
+  .section1{
+    .container{
+      padding: 12.5vh 0 12.5vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (max-height: 850px) and (max-width: 850px){
+  .section1{
+    .container{
+      padding: 0;
+      flex-direction: column;
+      .col{
+        width: 100%
+      }
+      .col_left{
+        .sec1_1st{
+          width: 28.125vw;
+          height: 25vw;
+          top: 40vw;
+          left: 26vw;
+        }
+        .sec1_2nd{
+          width: 34.69vw;
+          height: 32.25vw;
+          top: 40vw;
+          left: 38vw;
+        }
+        .sec1_3rd{
+          width: 18.5vw;
+          height: 16.75vw;
+          top: 55.5vw;
+          left: 65vw;
+        }
+        .sec1_4th{
+          width: 13.44vw;
+          height: 12.19vw;
+          top: 40vw;
+          left: 18vw;
+        }
+        .sec1_5th{
+          width: 22.5vw;
+          height: 19.69vw;
+          top: 73.5vw;
+          left: 50.5vw;
+        }
+      }
+      .col_right{
+        height: 100vh;
+        padding: 0;
+        position: relative;
+        .container{
+          position: absolute;
+          left: 20vw;
+          bottom: 15vh;
+          h1{
+            font-size: 8vw;
+          }
+          p{
+            margin: 0;
+            width: 60vw;
+            font-size: 4vw;
+          }
+        }
+      }
+    }
+  }
+}

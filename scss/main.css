@@ -1,0 +1,10 @@
+header {
+  height: 50vw;
+  background-image: url("..img/heroII.jpg");
+  background-size: cover;
+  background-repeat: none; }
+  header img {
+    height: 100%;
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

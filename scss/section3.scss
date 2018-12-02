@@ -1,0 +1,168 @@
+.section3{
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+
+  .container{
+    margin: 0;
+    padding: 17.5vh 0 17.5vh 7.5vw;
+    display: flex;
+    flex-direction: row;
+
+    .col{
+      width: 50%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .col_left{
+      margin: 0;
+      padding: 0;
+      position: relative;
+      .sec3_1st{
+        width: 10vw;
+        height: 20vw;
+        position: absolute;
+        top: 5vw;
+        left: 17vw;
+      }
+      .sec3_2nd{
+        width: 10vw;
+        height: 30vw;
+        position: absolute;
+        top: 0;
+        left: 25.5vw;
+      }
+      .sec3_3rd{
+        width: 10vw;
+        height: 20vw;
+        position: absolute;
+        top: 10.5vw;
+        left: 8.5vw;
+      }
+      .sec3_4th{
+        width: 10vw;
+        height: 20vw;
+        position: absolute;
+        top: 5.25vw;
+        left: 0;
+      }
+      .sec3_5th{
+        width: 10vw;
+        height: 20vw;
+        position: absolute;
+        top: 5.25vw;
+        left: 34vw;
+      }
+    }
+    .col_right{
+      margin: 0;
+      padding: 0;
+      .container{
+        margin: 0;
+        padding: 3vw 0;
+        display: flex;
+        flex-direction: column;
+        h1{
+          margin: 0;
+          padding: 0;
+          font-size: 4vw;
+          font-weight: 600;
+        }
+        p{
+          margin: auto;
+          padding: 0;
+          width: 30vw;
+          font-size: 2vw;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-height: 750px) and (max-height: 799px){
+  .section3{
+    .container{
+      padding: 22.5vh 0 22.5vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (min-height: 800px) and (max-height: 999px){
+  .section3{
+    .container{
+      padding: 25vh 0 25vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (min-height: 1000px) and (max-height: 1500px){
+  .section3{
+    .container{
+      padding: 22.5vh 0 22.5vh 7.5vw;
+    }
+  }
+}
+
+@media only screen and (max-height: 850px) and (max-width: 850px){
+  .section3{
+    .container{
+      padding: 0;
+      flex-direction: column;
+      .col{
+        width: 100%
+      }
+      .col_left{
+        .sec3_1st{
+          width: 15vw;
+          height: 30vw;
+          top: 45vw;
+          left: 43vw;
+        }
+        .sec3_2nd{
+          width: 15vw;
+          height: 45vw;
+          top: 37vw;
+          left: 56vw;
+        }
+        .sec3_3rd{
+          width: 15vw;
+          height: 30vw;
+          top: 52.5vw;
+          left: 30.5vw;
+        }
+        .sec3_4th{
+          width: 15vw;
+          height: 30vw;
+          top: 45.25vw;
+          left: 17.5vw;
+        }
+        .sec3_5th{
+          width: 15vw;
+          height: 30vw;
+          top: 45.25vw;
+          left: 69vw;
+        }
+      }
+      .col_right{
+        height: 100vh;
+        padding: 0;
+        position: relative;
+        .container{
+          position: absolute;
+          left: 20vw;
+          bottom: 20vh;
+          h1{
+            font-size: 8vw;
+          }
+          p{
+            margin: 0;
+            width: 60vw;
+            font-size: 4vw;
+          }
+        }
+      }
+    }
+  }
+}
