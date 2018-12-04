@@ -4,6 +4,7 @@
   padding: 0;
 
   .container{
+    height: 87.5vh;
     margin: 0;
     padding: 7.5vh 0 5vh 0;
     display: flex;
@@ -15,14 +16,17 @@
       padding: 0;
       text-align: center;
     }
+
     .col_left{
       margin: 0;
       padding: 0;
+
       .container{
         margin: 0;
         padding: 8vw 0;
         display: flex;
         flex-direction: column;
+
         h1{
           margin: 0;
           padding: 0;
@@ -30,7 +34,7 @@
           font-weight: 600;
         }
         p{
-          margin: auto;
+          margin: 0 auto;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
@@ -39,65 +43,70 @@
       }
     }
     .col_right{
-      width:  50vw;
       margin: 0;
       padding: 0;
-      position: relative;
-      .sec2_1st{
-        width: 5vw;
-        height: 12.75vw;
-        position: absolute;
-        top: 0;
-        right: 6.5vw;
-      }
-      .sec2_2nd{
-        width: 5vw;
-        height: 35.5vw;
-        position: absolute;
-        top: 0;
-        right: 12.5vw;
-      }
-      .sec2_3rd{
-        width: 5vw;
-        height: 24.25vw;
-        position: absolute;
-        top: 3vw;
-        right: 18.25vw;
-      }
-      .sec2_4th{
-        width: 5vw;
-        height: 12.75vw;
-        position: absolute;
-        top: 14.5vw;
-        right: 24.25vw;
-      }
-      .sec2_5th{
-        width: 5vw;
-        height: 24.25vw;
-        position: absolute;
-        top: 0;
-        right: 30vw;
-      }
-      .sec2_6th{
-        width: 5vw;
-        height: 35.5vw;
-        position: absolute;
-        top: 0;
-        right: 36vw;
-      }
-      .sec2_7th{
-        width: 5vw;
-        height: 12.75vw;
-        position: absolute;
-        top: 9.5vw;
-        right: 41.75vw;
-      }
-      .sec2_8th{
-        width: 5vw;
-        height: 24.5vw;
-        position: absolute;
-        top: 15.5vw;
-        right: 47.5vw;
+      
+      .container{
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        .sec2_1st{
+          width: 5vw;
+          height: 12.75vw;
+          position: absolute;
+          top: 0;
+          right: 6.5vw;
+        }
+        .sec2_2nd{
+          width: 5vw;
+          height: 35.5vw;
+          position: absolute;
+          top: 0;
+          right: 12.5vw;
+        }
+        .sec2_3rd{
+          width: 5vw;
+          height: 24.25vw;
+          position: absolute;
+          top: 3vw;
+          right: 18.25vw;
+        }
+        .sec2_4th{
+          width: 5vw;
+          height: 12.75vw;
+          position: absolute;
+          top: 14.5vw;
+          right: 24.25vw;
+        }
+        .sec2_5th{
+          width: 5vw;
+          height: 24.25vw;
+          position: absolute;
+          top: 0;
+          right: 30vw;
+        }
+        .sec2_6th{
+          width: 5vw;
+          height: 35.5vw;
+          position: absolute;
+          top: 0;
+          right: 36vw;
+        }
+        .sec2_7th{
+          width: 5vw;
+          height: 12.75vw;
+          position: absolute;
+          top: 9.5vw;
+          right: 41.75vw;
+        }
+        .sec2_8th{
+          width: 5vw;
+          height: 24.5vw;
+          position: absolute;
+          top: 15.5vw;
+          right: 47.5vw;
+        }
       }
     }
   }
@@ -130,80 +139,79 @@
 @media only screen and (max-height: 850px) and (max-width: 850px){
   .section2{
     .container{
-      padding: 0;
+      height: 70vh;
+      padding: 15vh 0;
       flex-direction: column;
-      position: relative;
       .col{
         width: 100%
       }
       .col_right{
-        margin: 0;
-        padding: 0;
-        position: absolute;
-        top: 50vh;
-        right: 8vw;
-        .sec2_1st{
-          width: 6.25vw;
-          height: 15.94vw;
-          top: 0;
-          right: 10vw;
-        }
-        .sec2_2nd{
-          width: 6.25vw;
-          height: 44.38vw;
-          top: 0;
-          right: 17.5vw;
-        }
-        .sec2_3rd{
-          width: 6.25vw;
-          height: 30.31vw;
-          top: 3vw;
-          right: 25.5vw;
-        }
-        .sec2_4th{
-          width: 6.25vw;
-          height: 15.94vw;
-          top: 17.5vw;
-          right: 33vw;
-        }
-        .sec2_5th{
-          width: 6.25vw;
-          height: 30.31vw;
-          top: 0;
-          right: 41vw;
-        }
-        .sec2_6th{
-          width: 6.25vw;
-          height: 44.38vw;
-          top: 0;
-          right: 49vw;
-        }
-        .sec2_7th{
-          width: 6.25vw;
-          height: 15.94vw;
-          top: 12vw;
-          right: 57vw;
-        }
-        .sec2_8th{
-          width: 6.25vw;
-          height: 30.6vw;
-          top: 15.5vw;
-          right: 65vw;
+        height: 50%;
+        .container{
+          height: 52.5vw;
+          width: 65vw;
+          margin: 5vh auto;
+          .sec2_1st{
+            width: 6.25vw;
+            height: 15.94vw;
+            top: 0;
+            right: 0vw;
+          }
+          .sec2_2nd{
+            width: 6.25vw;
+            height: 44.38vw;
+            top: 0;
+            right: 7.5vw;
+          }
+          .sec2_3rd{
+            width: 6.25vw;
+            height: 30.31vw;
+            top: 3vw;
+            right: 15.5vw;
+          }
+          .sec2_4th{
+            width: 6.25vw;
+            height: 15.94vw;
+            top: 17.5vw;
+            right: 23vw;
+          }
+          .sec2_5th{
+            width: 6.25vw;
+            height: 30.31vw;
+            top: 0;
+            right: 31vw;
+          }
+          .sec2_6th{
+            width: 6.25vw;
+            height: 44.38vw;
+            top: 0;
+            right: 39vw;
+          }
+          .sec2_7th{
+            width: 6.25vw;
+            height: 15.94vw;
+            top: 12vw;
+            right: 47vw;
+          }
+          .sec2_8th{
+            width: 6.25vw;
+            height: 30.6vw;
+            top: 15.5vw;
+            right: 55vw;
+          }
         }
       }
       .col_left{
-        height: 100vh;
-        padding: 0;
-        position: relative;
+        height: 50%;
         .container{
-          position: absolute;
-          left: 20vw;
-          top: 15vh;
+          height: 52.5vw;
+          width: 65vw;
+          margin: 5vh auto;
+          padding: 0;
           h1{
             font-size: 8vw;
           }
           p{
-            margin: 0;
             width: 60vw;
             font-size: 4vw;
           }

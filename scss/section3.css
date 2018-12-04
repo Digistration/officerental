@@ -3,8 +3,9 @@
   margin: auto;
   padding: 0; }
   .section3 .container {
+    height: 64vh;
     margin: 0;
-    padding: 17.5vh 0 17.5vh 7.5vw;
+    padding: 18vh 0 18vh 7.5vw;
     display: flex;
     flex-direction: row; }
     .section3 .container .col {
@@ -14,38 +15,41 @@
       text-align: center; }
     .section3 .container .col_left {
       margin: 0;
-      padding: 0;
-      position: relative; }
-      .section3 .container .col_left .sec3_1st {
-        width: 10vw;
-        height: 20vw;
-        position: absolute;
-        top: 5vw;
-        left: 17vw; }
-      .section3 .container .col_left .sec3_2nd {
-        width: 10vw;
-        height: 30vw;
-        position: absolute;
-        top: 0;
-        left: 25.5vw; }
-      .section3 .container .col_left .sec3_3rd {
-        width: 10vw;
-        height: 20vw;
-        position: absolute;
-        top: 10.5vw;
-        left: 8.5vw; }
-      .section3 .container .col_left .sec3_4th {
-        width: 10vw;
-        height: 20vw;
-        position: absolute;
-        top: 5.25vw;
-        left: 0; }
-      .section3 .container .col_left .sec3_5th {
-        width: 10vw;
-        height: 20vw;
-        position: absolute;
-        top: 5.25vw;
-        left: 34vw; }
+      padding: 0; }
+      .section3 .container .col_left .container {
+        margin: 0;
+        padding: 0;
+        position: relative; }
+        .section3 .container .col_left .container .sec3_1st {
+          width: 10vw;
+          height: 20vw;
+          position: absolute;
+          top: 5vw;
+          left: 17vw; }
+        .section3 .container .col_left .container .sec3_2nd {
+          width: 10vw;
+          height: 30vw;
+          position: absolute;
+          top: 0;
+          left: 25.5vw; }
+        .section3 .container .col_left .container .sec3_3rd {
+          width: 10vw;
+          height: 20vw;
+          position: absolute;
+          top: 10.5vw;
+          left: 8.5vw; }
+        .section3 .container .col_left .container .sec3_4th {
+          width: 10vw;
+          height: 20vw;
+          position: absolute;
+          top: 5.25vw;
+          left: 0; }
+        .section3 .container .col_left .container .sec3_5th {
+          width: 10vw;
+          height: 20vw;
+          position: absolute;
+          top: 5.25vw;
+          left: 34vw; }
     .section3 .container .col_right {
       margin: 0;
       padding: 0; }
@@ -60,7 +64,7 @@
           font-size: 4vw;
           font-weight: 600; }
         .section3 .container .col_right .container p {
-          margin: auto;
+          margin: 0 auto;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
@@ -77,47 +81,52 @@
     padding: 22.5vh 0 22.5vh 7.5vw; } }
 @media only screen and (max-height: 850px) and (max-width: 850px) {
   .section3 .container {
-    padding: 0;
+    height: 70vh;
+    padding: 15vh 0;
     flex-direction: column; }
     .section3 .container .col {
       width: 100%; }
-    .section3 .container .col_left .sec3_1st {
-      width: 15vw;
-      height: 30vw;
-      top: 45vw;
-      left: 43vw; }
-    .section3 .container .col_left .sec3_2nd {
-      width: 15vw;
-      height: 45vw;
-      top: 37vw;
-      left: 56vw; }
-    .section3 .container .col_left .sec3_3rd {
-      width: 15vw;
-      height: 30vw;
-      top: 52.5vw;
-      left: 30.5vw; }
-    .section3 .container .col_left .sec3_4th {
-      width: 15vw;
-      height: 30vw;
-      top: 45.25vw;
-      left: 17.5vw; }
-    .section3 .container .col_left .sec3_5th {
-      width: 15vw;
-      height: 30vw;
-      top: 45.25vw;
-      left: 69vw; }
+    .section3 .container .col_left {
+      height: 50%; }
+      .section3 .container .col_left .container {
+        height: 52.5vw;
+        width: 65vw;
+        margin: 5vh auto; }
+        .section3 .container .col_left .container .sec3_1st {
+          width: 15vw;
+          height: 30vw;
+          top: 13vw;
+          left: 25.5vw; }
+        .section3 .container .col_left .container .sec3_2nd {
+          width: 15vw;
+          height: 45vw;
+          top: 5vw;
+          left: 38.5vw; }
+        .section3 .container .col_left .container .sec3_3rd {
+          width: 15vw;
+          height: 30vw;
+          top: 21.5vw;
+          left: 13.5vw; }
+        .section3 .container .col_left .container .sec3_4th {
+          width: 15vw;
+          height: 30vw;
+          top: 13.25vw;
+          left: 0; }
+        .section3 .container .col_left .container .sec3_5th {
+          width: 15vw;
+          height: 30vw;
+          top: 13.25vw;
+          left: 51.5vw; }
     .section3 .container .col_right {
-      height: 100vh;
-      padding: 0;
-      position: relative; }
+      height: 50%; }
       .section3 .container .col_right .container {
-        position: absolute;
-        left: 20vw;
-        bottom: 20vh; }
+        height: 52.5vw;
+        width: 65vw;
+        margin: 5vh auto;
+        padding: 0; }
         .section3 .container .col_right .container h1 {
           font-size: 8vw; }
         .section3 .container .col_right .container p {
-          margin: 0;
           width: 60vw;
           font-size: 4vw; } }
 
