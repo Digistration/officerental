@@ -1,166 +1,186 @@
 .section2 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .section2 .container {
-    height: 87.5vh;
-    margin: 0;
-    padding: 7.5vh 0 5vh 0;
+    height: 41.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row; }
-    .section2 .container .col {
-      width: 50%;
-      margin: 0;
-      padding: 0;
-      text-align: center; }
     .section2 .container .col_left {
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0; }
-      .section2 .container .col_left .container {
-        margin: 0;
-        padding: 8vw 0;
+      .section2 .container .col_left .container_col_left {
+        height: 60%;
+        width: 95%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section2 .container .col_left .container h1 {
-          margin: 0;
+        .section2 .container .col_left .container_col_left h1 {
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section2 .container .col_left .container p {
-          margin: 0 auto;
+        .section2 .container .col_left .container_col_left p {
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
           font-weight: 200; }
     .section2 .container .col_right {
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0; }
-      .section2 .container .col_right .container {
+      .section2 .container .col_right .container_col_right {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section2 .container .col_right .container .sec2_1st {
+        .section2 .container .col_right .container_col_right .sec2_1st {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 0;
-          right: 6.5vw; }
-        .section2 .container .col_right .container .sec2_2nd {
+          right: 0vw; }
+        .section2 .container .col_right .container_col_right .sec2_2nd {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 12.5vw; }
-        .section2 .container .col_right .container .sec2_3rd {
+          right: 6vw; }
+        .section2 .container .col_right .container_col_right .sec2_3rd {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 3vw;
-          right: 18.25vw; }
-        .section2 .container .col_right .container .sec2_4th {
+          right: 11.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_4th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 14.5vw;
-          right: 24.25vw; }
-        .section2 .container .col_right .container .sec2_5th {
+          right: 17.75vw; }
+        .section2 .container .col_right .container_col_right .sec2_5th {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 0;
-          right: 30vw; }
-        .section2 .container .col_right .container .sec2_6th {
+          right: 23.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_6th {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 36vw; }
-        .section2 .container .col_right .container .sec2_7th {
+          right: 29.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_7th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 9.5vw;
-          right: 41.75vw; }
-        .section2 .container .col_right .container .sec2_8th {
+          right: 35.25vw; }
+        .section2 .container .col_right .container_col_right .sec2_8th {
           width: 5vw;
           height: 24.5vw;
           position: absolute;
           top: 15.5vw;
-          right: 47.5vw; }
+          right: 41vw; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section2 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section2 .container {
-    padding: 17.5vh 0 17.5vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section2 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section2 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 60%;
+    max-height: 130vw;
+    min-height: 110vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section2 .container .col {
-      width: 100%; }
     .section2 .container .col_right {
-      height: 50%; }
-      .section2 .container .col_right .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto; }
-        .section2 .container .col_right .container .sec2_1st {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section2 .container .col_right .container_col_right {
+        height: 46vw;
+        width: 61vw;
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section2 .container .col_right .container_col_right .sec2_1st {
           width: 6.25vw;
           height: 15.94vw;
           top: 0;
           right: 0vw; }
-        .section2 .container .col_right .container .sec2_2nd {
+        .section2 .container .col_right .container_col_right .sec2_2nd {
           width: 6.25vw;
           height: 44.38vw;
           top: 0;
           right: 7.5vw; }
-        .section2 .container .col_right .container .sec2_3rd {
+        .section2 .container .col_right .container_col_right .sec2_3rd {
           width: 6.25vw;
           height: 30.31vw;
           top: 3vw;
           right: 15.5vw; }
-        .section2 .container .col_right .container .sec2_4th {
+        .section2 .container .col_right .container_col_right .sec2_4th {
           width: 6.25vw;
           height: 15.94vw;
           top: 17.5vw;
           right: 23vw; }
-        .section2 .container .col_right .container .sec2_5th {
+        .section2 .container .col_right .container_col_right .sec2_5th {
           width: 6.25vw;
           height: 30.31vw;
           top: 0;
           right: 31vw; }
-        .section2 .container .col_right .container .sec2_6th {
+        .section2 .container .col_right .container_col_right .sec2_6th {
           width: 6.25vw;
           height: 44.38vw;
           top: 0;
           right: 39vw; }
-        .section2 .container .col_right .container .sec2_7th {
+        .section2 .container .col_right .container_col_right .sec2_7th {
           width: 6.25vw;
           height: 15.94vw;
           top: 12vw;
           right: 47vw; }
-        .section2 .container .col_right .container .sec2_8th {
+        .section2 .container .col_right .container_col_right .sec2_8th {
           width: 6.25vw;
           height: 30.6vw;
           top: 15.5vw;
           right: 55vw; }
     .section2 .container .col_left {
-      height: 50%; }
-      .section2 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section2 .container .col_left .container h1 {
-          font-size: 8vw; }
-        .section2 .container .col_left .container p {
+      height: 50%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section2 .container .col_left .container_col_left {
+        height: 50vw;
+        width: 62vw;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section2 .container .col_left .container_col_left h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section2 .container .col_left .container_col_left p {
+          margin: 0;
+          padding: 0;
           width: 60vw;
-          font-size: 4vw; } }
+          font-size: 4vw;
+          font-weight: 200; } }
 
 /*# sourceMappingURL=section2.css.map */

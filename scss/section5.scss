@@ -1,30 +1,32 @@
 .section5{
-  height: 100vh;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .container{
-    height: 87.5vh;
-    margin: 0;
-    padding: 7.5vh 0 5vh 7.5vw;;
+    height: 41.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row;
 
-    .col{
-      width: 50%;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
     .col_left{
-      width:  50vw;
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0;
 
-      .container{
+      .container_col_left{
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative;
+
         .sec5_1st{
           width: 5vw;
           height: 12.75vw;
@@ -84,21 +86,27 @@
       }
     }
     .col_right{
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0;
-      .container{
-        margin: 0;
-        padding: 6.5vw 0;
+
+      .container_col_right{
+        height: 60%;
+        width: 95%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column;
+
         h1{
-          margin: 0;
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600;
         }
         p{
-          margin: 0 auto;
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
@@ -109,45 +117,28 @@
   }
 }
 
-@media only screen and (min-height: 750px) and (max-height: 799px){
+@media only screen and (max-width: 850px){
   .section5{
     .container{
-      padding: 15vh 0 15vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 800px) and (max-height: 999px){
-  .section5{
-    .container{
-      padding: 17.5vh 0 17.5vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 1000px) and (max-height: 1500px){
-  .section5{
-    .container{
-      padding: 15vh 0 15vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (max-height: 850px) and (max-width: 850px){
-  .section5{
-    .container{
-      height: 70vh;
-      padding: 15vh 0;
+      height: 60%;
+      max-height: 130vw;
+      min-height: 110vw;
+      width: 100%;
+      margin: auto;
+      display: flex;
       flex-direction: column;
-      .col{
-        width: 100%
-      }
       .col_left{
         height: 50%;
-        .container{
-          height: 52.5vw;
-          width: 65vw;
-          margin: 5vh auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_left{
+          height: 45vw;
+          width: 62vw;
+          margin: auto;
+          padding: 0;
+          position: relative;
           .sec5_1st{
             width: 6.25vw;
             height: 15.94vw;
@@ -208,17 +199,31 @@
       }
       .col_right{
         height: 50%;
-        .container{
-          height: 52.5vw;
-          width: 65vw;
-          margin: 5vh auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_right{
+          height: 55vw;
+          width: 60vw;
+          margin: auto;
           padding: 0;
+          display: flex;
+          flex-direction: column;
           h1{
+            margin: auto;
+            padding: 0;
             font-size: 8vw;
+            font-weight: 600;
           }
           p{
+            margin: 0;
+            padding: 0;
             width: 60vw;
             font-size: 4vw;
+            font-weight: 200;
           }
         }
       }

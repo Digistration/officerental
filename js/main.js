@@ -252,12 +252,12 @@ sr.reveal('.contact', {
 })
 // IMAGE
 sr.reveal('.map', {
-  duration: 4000,
+  duration: 1500,
   delay: 1000,
   opacity: 0
 })
 sr.reveal('.location', {
-  duration: 2000,
+  duration: 1500,
   delay: 1250,
   opacity: 0
 })

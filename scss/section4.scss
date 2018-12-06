@@ -1,32 +1,35 @@
 .section4{
-  height: 100vh;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .container{
-    height: 90vh;
-    margin: 0;
-    padding: 5vh 7.5vw 5vh 0;
+    height: 41.5vw;
+    width: 82.5vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row;
 
-    .col{
-      width: 50%;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
     .col_left{
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0;
 
-      .container{
-        margin: 0;
-        padding: 8vw 0;
+      .container_col_left{
+        height: 75%;
+        width: 90%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column;
+
         h1{
-          margin: 0;
+          margin: 0 auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600;
@@ -34,20 +37,25 @@
         p{
           margin: 0 auto;
           padding: 0;
-          width: 30vw;
+          width: 29vw;
           font-size: 2vw;
           font-weight: 200;
         }
       }
     }
     .col_right{
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0;
 
-      .container{
+      .container_col_right{
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative;
+
         .sec4_1st{
           width: 27.75vw;
           height: 25vw;
@@ -88,47 +96,28 @@
   }
 }
 
-@media only screen and (min-height: 750px) and (max-height: 799px){
+@media only screen and (max-width: 850px){
   .section4{
     .container{
-      padding: 12.5vh 0 12.5vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 800px) and (max-height: 999px){
-  .section4{
-    .container{
-      padding: 17.5vh 0 17.5vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 1000px) and (max-height: 1500px){
-  .section4{
-    .container{
-      padding: 12.5vh 0 12.5vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (max-height: 850px) and (max-width: 850px){
-  .section4{
-    .container{
-      height: 70vh;
-      padding: 15vh 0;
+      height: 65%;
+      max-height: 140vw;
+      min-height: 120vw;
+      width: 100%;
+      margin: auto;
+      display: flex;
       flex-direction: column;
-      .col{
-        width: 100%
-      }
       .col_right{
         height: 50%;
-
-        .container{
-          height: 52.5vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_right{
+          height: 50vw;
           width: 65vw;
-          margin: 5vh auto;
-
+          margin: auto;
+          padding: 0;
+          position: relative;
           .sec4_1st{
             width: 34.69vw;
             height: 31.25vw;
@@ -163,17 +152,31 @@
       }
       .col_left{
         height: 50%;
-        .container{
-          height: 52.5vw;
-          width: 65vw;
-          margin: 5vh auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_left{
+          height: 55vw;
+          width: 62vw;
+          margin: auto;
           padding: 0;
+          display: flex;
+          flex-direction: column;
           h1{
+            margin: auto;
+            padding: 0;
             font-size: 8vw;
+            font-weight: 600;
           }
           p{
+            margin: 0;
+            padding: 0;
             width: 60vw;
             font-size: 4vw;
+            font-weight: 200;
           }
         }
       }

@@ -1,164 +1,195 @@
 .section6 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .section6 .container {
-    height: 85vh;
-    margin: 0;
-    padding: 15vh 0 0 0;
+    height: 45vw;
+    width: 85vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row; }
     .section6 .container .col_left {
-      width: 60%;
+      height: 100%;
+      width: 55%;
       margin: 0;
       padding: 0; }
-      .section6 .container .col_left .container {
+      .section6 .container .col_left .container_col_left {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction: row;
-        text-align: center; }
-        .section6 .container .col_left .container .col1 {
+        flex-direction: row; }
+        .section6 .container .col_left .container_col_left .col1 {
+          height: 100%;
           width: 40%;
           margin: 0;
-          padding: 0; }
-          .section6 .container .col_left .container .col1 form {
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col1 form {
             width: 15vw;
-            margin: 4vw 6vw;
+            margin: auto;
             padding: 2vw;
             text-align: left;
             border: 0.05vw solid #D3D3D3;
             border-radius: 10px;
             font-family: 'Open Sans';
             font-weight: 200; }
-            .section6 .container .col_left .container .col1 form h4 {
+            .section6 .container .col_left .container_col_left .col1 form h4 {
               margin: 0;
               padding: 0;
               font-size: 2vw;
               font-weight: 200; }
-            .section6 .container .col_left .container .col1 form input, .section6 .container .col_left .container .col1 form textarea {
+            .section6 .container .col_left .container_col_left .col1 form input, .section6 .container .col_left .container_col_left .col1 form textarea {
               width: 100%;
               margin: 0 0 1vw 0;
               padding: 0.5vw 0;
               border: 0.05vw solid #D3D3D3;
               border-radius: 3px; }
-            .section6 .container .col_left .container .col1 form button {
+            .section6 .container .col_left .container_col_left .col1 form .container_form_btn button {
               margin: 0 4vw;
               padding: 0.75vw 2vw;
               background-color: white;
               border: 0.05vw solid #D3D3D3;
               border-radius: 3px;
               font-family: 'Open Sans'; }
-        .section6 .container .col_left .container .col2 {
-          width: 60%; }
-          .section6 .container .col_left .container .col2 .container {
+        .section6 .container .col_left .container_col_left .col2 {
+          height: 100%;
+          width: 60%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col2 .container_col2 {
             height: 20vw;
-            margin: 7vw 0 5vw 2.5vw;
+            margin: auto;
             padding: 0;
             display: flex;
             flex-direction: column; }
-            .section6 .container .col_left .container .col2 .container .row {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 .row {
               margin: 1vw 0;
               padding: 0;
               display: flex;
               flex-direction: row; }
-            .section6 .container .col_left .container .col2 .container h4 {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 h4 {
               margin: 0.7vw 0;
               padding: 0;
               font-size: 2vw;
               font-weight: 200; }
-            .section6 .container .col_left .container .col2 .container i {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 i {
               margin: 1vw 2vw;
               color: #D3D3D3;
               font-size: 2vw; }
     .section6 .container .col_right {
-      width: 40%;
+      height: 100%;
+      width: 45%;
       margin: 0;
-      padding: 0; }
-      .section6 .container .col_right .container {
-        margin: 2.5vh 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_right .container_col_right {
+        height: 70%;
+        width: 85%;
+        margin: auto;
         padding: 0;
         display: flex;
-        flex-direction: column;
-        text-align: center; }
-        .section6 .container .col_right .container img {
+        flex-direction: column; }
+        .section6 .container .col_right .container_col_right img {
           height: 30vw;
           width: 32.5vw; }
-        .section6 .container .col_right .container h4 {
-          margin: 2.5vh 7.5vw 0 0;
+        .section6 .container .col_right .container_col_right h4 {
+          margin: auto;
           padding: 0;
-          font-size: 2vw;
+          font-size: 1.5vw;
           font-weight: 200; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
-  .section6 .container {
-    padding: 20vh 0 0 1vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section6 .container {
-    padding: 22.5vh 0 0 1vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section6 .container {
-    padding: 20vh 0 0 1vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .section6 .container {
     height: 100vh;
-    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section6 .container .col {
-      width: 100%; }
     .section6 .container .col_left {
-      height: 70%; }
-      .section6 .container .col_left .container {
-        margin-top: 2.5vh;
+      height: 70%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_left .container_col_left {
         flex-direction: column; }
-        .section6 .container .col_left .container .col1 {
+        .section6 .container .col_left .container_col_left .col1 {
+          height: 80%;
           width: 100%; }
-          .section6 .container .col_left .container .col1 form {
+          .section6 .container .col_left .container_col_left .col1 form {
             width: 60vw;
             margin: auto;
-            padding: 4vw;
-            border: 0.25vw solid #D3D3D3; }
-            .section6 .container .col_left .container .col1 form h4 {
-              margin: 2vw 0;
-              font-size: 5vw; }
-            .section6 .container .col_left .container .col1 form input, .section6 .container .col_left .container .col1 form textarea {
-              margin: 2vw 0 1vw 0;
-              padding: 1vw 0;
+            padding: 2vh;
+            border: 0.25vw solid #D3D3D3;
+            font-size: 2.5vh; }
+            .section6 .container .col_left .container_col_left .col1 form h4 {
+              margin: 1vh 0;
+              font-size: 2.5vh; }
+            .section6 .container .col_left .container_col_left .col1 form input, .section6 .container .col_left .container_col_left .col1 form textarea {
+              margin: 1vh 0 0.5vh 0;
+              padding: 0.5vh 0;
               border: 0.25vw solid #D3D3D3; }
-            .section6 .container .col_left .container .col1 form button {
-              margin: 2vw 20vw;
-              border: 0.25vw solid #D3D3D3;
-              font-size: 4vw; }
-        .section6 .container .col_left .container .col2 {
-          width: 100%; }
-          .section6 .container .col_left .container .col2 .container {
-            margin: 5vw 12.5vw;
+            .section6 .container .col_left .container_col_left .col1 form .container_form_btn {
+              text-align: center; }
+              .section6 .container .col_left .container_col_left .col1 form .container_form_btn button {
+                margin: auto;
+                border: 0.25vw solid #D3D3D3;
+                font-size: 4vw; }
+        .section6 .container .col_left .container_col_left .col2 {
+          height: 20%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col2 .container_col2 {
+            height: 75%;
+            width: 75%;
+            margin: auto;
             padding: 0;
             display: flex;
             flex-wrap: wrap; }
-            .section6 .container .col_left .container .col2 .container .row {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 .row {
               margin: 1vw 0;
               padding: 0; }
-              .section6 .container .col_left .container .col2 .container .row h4 {
+              .section6 .container .col_left .container_col_left .col2 .container_col2 .row h4 {
                 margin: 0.7vw 0;
                 padding: 0;
-                font-size: 4vw;
+                font-size: 2vh;
                 font-weight: 200; }
-              .section6 .container .col_left .container .col2 .container .row i {
+              .section6 .container .col_left .container_col_left .col2 .container_col2 .row i {
                 margin: 1vw 2vw;
                 color: #D3D3D3;
-                font-size: 5vw; }
+                font-size: 2.5vh; }
     .section6 .container .col_right {
       height: 30%;
-      width: 100%; }
-      .section6 .container .col_right .container {
-        height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_right .container_col_right {
+        height: 45vw;
+        width: 80vw;
         margin: 0 auto; }
-        .section6 .container .col_right .container img {
+        .section6 .container .col_right .container_col_right img {
           height: 35vw;
           width: 37.5vw;
           margin: 0 auto; }
-        .section6 .container .col_right .container h4 {
+        .section6 .container .col_right .container_col_right h4 {
           margin: 2vw auto;
           font-size: 4vw; } }
 

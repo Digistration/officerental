@@ -14,896 +14,1034 @@ header {
     background-position: center; }
 
 .section1 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .section1 .container {
-    height: 90vh;
-    margin: 0;
-    padding: 5vh 0 5vh 7.5vw;
+    height: 41.5vw;
+    width: 85vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row; }
-    .section1 .container .col {
-      width: 50%;
-      margin: 0;
-      padding: 0;
-      text-align: center; }
     .section1 .container .col_left {
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0; }
-      .section1 .container .col_left .container {
+      .section1 .container .col_left .container_col_left {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section1 .container .col_left .container .sec1_1st {
+        .section1 .container .col_left .container_col_left .sec1_1st {
           width: 22.5vw;
           height: 20vw;
           position: absolute;
           top: 0;
           left: 6vw; }
-        .section1 .container .col_left .container .sec1_2nd {
+        .section1 .container .col_left .container_col_left .sec1_2nd {
           width: 27.75vw;
           height: 25vw;
           position: absolute;
           top: 0;
           left: 15.5vw; }
-        .section1 .container .col_left .container .sec1_3rd {
+        .section1 .container .col_left .container_col_left .sec1_3rd {
           width: 14.25vw;
           height: 12.75vw;
           position: absolute;
           top: 12.25vw;
           left: 37vw; }
-        .section1 .container .col_left .container .sec1_4th {
+        .section1 .container .col_left .container_col_left .sec1_4th {
           width: 10.75vw;
           height: 9.75vw;
           position: absolute;
           top: 0;
           left: 0; }
-        .section1 .container .col_left .container .sec1_5th {
+        .section1 .container .col_left .container_col_left .sec1_5th {
           width: 18vw;
           height: 15.75vw;
           position: absolute;
           top: 25.75vw;
           left: 25.75vw; }
     .section1 .container .col_right {
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0; }
-      .section1 .container .col_right .container {
-        margin: 0;
-        padding: 7.5vw 0;
+      .section1 .container .col_right .container_col_right {
+        height: 60%;
+        width: 90%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section1 .container .col_right .container h1 {
-          margin: 0;
+        .section1 .container .col_right .container_col_right h1 {
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section1 .container .col_right .container p {
-          margin: 0 auto;
+        .section1 .container .col_right .container_col_right p {
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
           font-weight: 200; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section1 .container {
-    padding: 12.5vh 0 12.5vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section1 .container {
-    padding: 17.5vh 0 17.5vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section1 .container {
-    padding: 12.5vh 0 12.5vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section1 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 60%;
+    max-height: 130vw;
+    min-height: 110vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section1 .container .col {
-      width: 100%; }
     .section1 .container .col_left {
-      height: 50%; }
-      .section1 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto; }
-        .section1 .container .col_left .container .sec1_1st {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section1 .container .col_left .container_col_left {
+        height: 51.88vw;
+        width: 64vw;
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section1 .container .col_left .container_col_left .sec1_1st {
           width: 28.13vw;
           height: 25vw;
-          top: 0vw;
-          left: 8vw; }
-        .section1 .container .col_left .container .sec1_2nd {
+          position: absolute;
+          top: 0;
+          left: 7.75vw; }
+        .section1 .container .col_left .container_col_left .sec1_2nd {
           width: 34.69vw;
-          height: 32.25vw;
-          top: 0vw;
-          left: 20vw; }
-        .section1 .container .col_left .container .sec1_3rd {
-          width: 18.5vw;
-          height: 16.75vw;
-          top: 15.5vw;
-          left: 47vw; }
-        .section1 .container .col_left .container .sec1_4th {
+          height: 31.25vw;
+          position: absolute;
+          top: 0;
+          left: 19.75vw; }
+        .section1 .container .col_left .container_col_left .sec1_3rd {
+          width: 18vw;
+          height: 16vw;
+          position: absolute;
+          top: 15vw;
+          left: 46.5vw; }
+        .section1 .container .col_left .container_col_left .sec1_4th {
           width: 13.44vw;
           height: 12.19vw;
-          top: 0vw;
+          position: absolute;
+          top: 0;
           left: 0; }
-        .section1 .container .col_left .container .sec1_5th {
+        .section1 .container .col_left .container_col_left .sec1_5th {
           width: 22.5vw;
           height: 19.69vw;
-          top: 33.5vw;
-          left: 32.5vw; }
+          position: absolute;
+          top: 32.25vw;
+          left: 32.19vw; }
     .section1 .container .col_right {
-      height: 50%; }
-      .section1 .container .col_right .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section1 .container .col_right .container h1 {
-          font-size: 8vw; }
-        .section1 .container .col_right .container p {
-          width: 60vw;
-          font-size: 4vw; } }
-.section2 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
-  .section2 .container {
-    height: 87.5vh;
-    margin: 0;
-    padding: 7.5vh 0 5vh 0;
-    display: flex;
-    flex-direction: row; }
-    .section2 .container .col {
-      width: 50%;
+      height: 50%;
+      width: 100%;
       margin: 0;
       padding: 0;
-      text-align: center; }
-    .section2 .container .col_left {
-      margin: 0;
-      padding: 0; }
-      .section2 .container .col_left .container {
-        margin: 0;
-        padding: 8vw 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section1 .container .col_right .container_col_right {
+        height: 50vw;
+        width: 60vw;
+        margin: auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section2 .container .col_left .container h1 {
+        .section1 .container .col_right .container_col_right h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section1 .container .col_right .container_col_right p {
           margin: 0;
+          padding: 0;
+          width: 60vw;
+          font-size: 4vw;
+          font-weight: 200; } }
+.section2 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section2 .container {
+    height: 41.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
+    .section2 .container .col_left {
+      height: 100%;
+      width: 39%;
+      margin: 0;
+      padding: 0; }
+      .section2 .container .col_left .container_col_left {
+        height: 60%;
+        width: 95%;
+        margin: 7.5vw auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section2 .container .col_left .container_col_left h1 {
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section2 .container .col_left .container p {
-          margin: 0 auto;
+        .section2 .container .col_left .container_col_left p {
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
           font-weight: 200; }
     .section2 .container .col_right {
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0; }
-      .section2 .container .col_right .container {
+      .section2 .container .col_right .container_col_right {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section2 .container .col_right .container .sec2_1st {
+        .section2 .container .col_right .container_col_right .sec2_1st {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 0;
-          right: 6.5vw; }
-        .section2 .container .col_right .container .sec2_2nd {
+          right: 0vw; }
+        .section2 .container .col_right .container_col_right .sec2_2nd {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 12.5vw; }
-        .section2 .container .col_right .container .sec2_3rd {
+          right: 6vw; }
+        .section2 .container .col_right .container_col_right .sec2_3rd {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 3vw;
-          right: 18.25vw; }
-        .section2 .container .col_right .container .sec2_4th {
+          right: 11.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_4th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 14.5vw;
-          right: 24.25vw; }
-        .section2 .container .col_right .container .sec2_5th {
+          right: 17.75vw; }
+        .section2 .container .col_right .container_col_right .sec2_5th {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 0;
-          right: 30vw; }
-        .section2 .container .col_right .container .sec2_6th {
+          right: 23.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_6th {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 36vw; }
-        .section2 .container .col_right .container .sec2_7th {
+          right: 29.5vw; }
+        .section2 .container .col_right .container_col_right .sec2_7th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 9.5vw;
-          right: 41.75vw; }
-        .section2 .container .col_right .container .sec2_8th {
+          right: 35.25vw; }
+        .section2 .container .col_right .container_col_right .sec2_8th {
           width: 5vw;
           height: 24.5vw;
           position: absolute;
           top: 15.5vw;
-          right: 47.5vw; }
+          right: 41vw; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section2 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section2 .container {
-    padding: 17.5vh 0 17.5vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section2 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section2 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 60%;
+    max-height: 130vw;
+    min-height: 110vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section2 .container .col {
-      width: 100%; }
     .section2 .container .col_right {
-      height: 50%; }
-      .section2 .container .col_right .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto; }
-        .section2 .container .col_right .container .sec2_1st {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section2 .container .col_right .container_col_right {
+        height: 46vw;
+        width: 61vw;
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section2 .container .col_right .container_col_right .sec2_1st {
           width: 6.25vw;
           height: 15.94vw;
           top: 0;
           right: 0vw; }
-        .section2 .container .col_right .container .sec2_2nd {
+        .section2 .container .col_right .container_col_right .sec2_2nd {
           width: 6.25vw;
           height: 44.38vw;
           top: 0;
           right: 7.5vw; }
-        .section2 .container .col_right .container .sec2_3rd {
+        .section2 .container .col_right .container_col_right .sec2_3rd {
           width: 6.25vw;
           height: 30.31vw;
           top: 3vw;
           right: 15.5vw; }
-        .section2 .container .col_right .container .sec2_4th {
+        .section2 .container .col_right .container_col_right .sec2_4th {
           width: 6.25vw;
           height: 15.94vw;
           top: 17.5vw;
           right: 23vw; }
-        .section2 .container .col_right .container .sec2_5th {
+        .section2 .container .col_right .container_col_right .sec2_5th {
           width: 6.25vw;
           height: 30.31vw;
           top: 0;
           right: 31vw; }
-        .section2 .container .col_right .container .sec2_6th {
+        .section2 .container .col_right .container_col_right .sec2_6th {
           width: 6.25vw;
           height: 44.38vw;
           top: 0;
           right: 39vw; }
-        .section2 .container .col_right .container .sec2_7th {
+        .section2 .container .col_right .container_col_right .sec2_7th {
           width: 6.25vw;
           height: 15.94vw;
           top: 12vw;
           right: 47vw; }
-        .section2 .container .col_right .container .sec2_8th {
+        .section2 .container .col_right .container_col_right .sec2_8th {
           width: 6.25vw;
           height: 30.6vw;
           top: 15.5vw;
           right: 55vw; }
     .section2 .container .col_left {
-      height: 50%; }
-      .section2 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section2 .container .col_left .container h1 {
-          font-size: 8vw; }
-        .section2 .container .col_left .container p {
-          width: 60vw;
-          font-size: 4vw; } }
-.section3 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
-  .section3 .container {
-    height: 64vh;
-    margin: 0;
-    padding: 18vh 0 18vh 7.5vw;
-    display: flex;
-    flex-direction: row; }
-    .section3 .container .col {
-      width: 50%;
+      height: 50%;
+      width: 100%;
       margin: 0;
       padding: 0;
-      text-align: center; }
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section2 .container .col_left .container_col_left {
+        height: 50vw;
+        width: 62vw;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section2 .container .col_left .container_col_left h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section2 .container .col_left .container_col_left p {
+          margin: 0;
+          padding: 0;
+          width: 60vw;
+          font-size: 4vw;
+          font-weight: 200; } }
+.section3 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section3 .container {
+    height: 30.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
     .section3 .container .col_left {
+      height: 100%;
+      width: 55%;
       margin: 0;
       padding: 0; }
-      .section3 .container .col_left .container {
+      .section3 .container .col_left .container_col_left {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section3 .container .col_left .container .sec3_1st {
+        .section3 .container .col_left .container_col_left .sec3_1st {
           width: 10vw;
           height: 20vw;
           position: absolute;
           top: 5vw;
           left: 17vw; }
-        .section3 .container .col_left .container .sec3_2nd {
+        .section3 .container .col_left .container_col_left .sec3_2nd {
           width: 10vw;
           height: 30vw;
           position: absolute;
           top: 0;
           left: 25.5vw; }
-        .section3 .container .col_left .container .sec3_3rd {
+        .section3 .container .col_left .container_col_left .sec3_3rd {
           width: 10vw;
           height: 20vw;
           position: absolute;
           top: 10.5vw;
           left: 8.5vw; }
-        .section3 .container .col_left .container .sec3_4th {
+        .section3 .container .col_left .container_col_left .sec3_4th {
           width: 10vw;
           height: 20vw;
           position: absolute;
           top: 5.25vw;
           left: 0; }
-        .section3 .container .col_left .container .sec3_5th {
+        .section3 .container .col_left .container_col_left .sec3_5th {
           width: 10vw;
           height: 20vw;
           position: absolute;
           top: 5.25vw;
           left: 34vw; }
     .section3 .container .col_right {
+      height: 100%;
+      width: 45%;
       margin: 0;
-      padding: 0; }
-      .section3 .container .col_right .container {
-        margin: 0;
-        padding: 3vw 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section3 .container .col_right .container_col_right {
+        height: 80%;
+        width: 100%;
+        margin: auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section3 .container .col_right .container h1 {
-          margin: 0;
+        .section3 .container .col_right .container_col_right h1 {
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section3 .container .col_right .container p {
-          margin: 0 auto;
+        .section3 .container .col_right .container_col_right p {
+          margin: auto;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
           font-weight: 200; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section3 .container {
-    padding: 22.5vh 0 22.5vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section3 .container {
-    padding: 25vh 0 25vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section3 .container {
-    padding: 22.5vh 0 22.5vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section3 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 55%;
+    max-height: 130vw;
+    min-height: 110vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section3 .container .col {
-      width: 100%; }
     .section3 .container .col_left {
-      height: 50%; }
-      .section3 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto; }
-        .section3 .container .col_left .container .sec3_1st {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section3 .container .col_left .container_col_left {
+        height: 46vw;
+        width: 67vw;
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section3 .container .col_left .container_col_left .sec3_1st {
           width: 15vw;
           height: 30vw;
-          top: 13vw;
+          top: 8vw;
           left: 25.5vw; }
-        .section3 .container .col_left .container .sec3_2nd {
+        .section3 .container .col_left .container_col_left .sec3_2nd {
           width: 15vw;
           height: 45vw;
-          top: 5vw;
+          top: 0;
           left: 38.5vw; }
-        .section3 .container .col_left .container .sec3_3rd {
+        .section3 .container .col_left .container_col_left .sec3_3rd {
           width: 15vw;
           height: 30vw;
-          top: 21.5vw;
-          left: 13.5vw; }
-        .section3 .container .col_left .container .sec3_4th {
+          top: 16.25vw;
+          left: 12.75vw; }
+        .section3 .container .col_left .container_col_left .sec3_4th {
           width: 15vw;
           height: 30vw;
-          top: 13.25vw;
+          top: 8.25vw;
           left: 0; }
-        .section3 .container .col_left .container .sec3_5th {
+        .section3 .container .col_left .container_col_left .sec3_5th {
           width: 15vw;
           height: 30vw;
-          top: 13.25vw;
+          top: 8.25vw;
           left: 51.5vw; }
     .section3 .container .col_right {
-      height: 50%; }
-      .section3 .container .col_right .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section3 .container .col_right .container h1 {
-          font-size: 8vw; }
-        .section3 .container .col_right .container p {
-          width: 60vw;
-          font-size: 4vw; } }
-.section4 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
-  .section4 .container {
-    height: 90vh;
-    margin: 0;
-    padding: 5vh 7.5vw 5vh 0;
-    display: flex;
-    flex-direction: row; }
-    .section4 .container .col {
-      width: 50%;
+      height: 50%;
+      width: 100%;
       margin: 0;
       padding: 0;
-      text-align: center; }
-    .section4 .container .col_left {
-      margin: 0;
-      padding: 0; }
-      .section4 .container .col_left .container {
-        margin: 0;
-        padding: 8vw 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section3 .container .col_right .container_col_right {
+        height: 47.5vw;
+        width: 60vw;
+        margin: auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section4 .container .col_left .container h1 {
+        .section3 .container .col_right .container_col_right h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section3 .container .col_right .container_col_right p {
           margin: 0;
+          padding: 0;
+          width: 60vw;
+          font-size: 4vw;
+          font-weight: 200; } }
+.section4 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section4 .container {
+    height: 41.5vw;
+    width: 82.5vw;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
+    .section4 .container .col_left {
+      height: 100%;
+      width: 39%;
+      margin: 0;
+      padding: 0; }
+      .section4 .container .col_left .container_col_left {
+        height: 75%;
+        width: 90%;
+        margin: 7.5vw auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section4 .container .col_left .container_col_left h1 {
+          margin: 0 auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section4 .container .col_left .container p {
+        .section4 .container .col_left .container_col_left p {
           margin: 0 auto;
           padding: 0;
-          width: 30vw;
+          width: 29vw;
           font-size: 2vw;
           font-weight: 200; }
     .section4 .container .col_right {
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0; }
-      .section4 .container .col_right .container {
+      .section4 .container .col_right .container_col_right {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section4 .container .col_right .container .sec4_1st {
+        .section4 .container .col_right .container_col_right .sec4_1st {
           width: 27.75vw;
           height: 25vw;
           position: absolute;
           top: 0;
           right: 15.5vw; }
-        .section4 .container .col_right .container .sec4_2nd {
+        .section4 .container .col_right .container_col_right .sec4_2nd {
           width: 22.5vw;
           height: 20vw;
           position: absolute;
           top: 0;
           right: 6vw; }
-        .section4 .container .col_right .container .sec4_3rd {
+        .section4 .container .col_right .container_col_right .sec4_3rd {
           width: 10.75vw;
           height: 9.75vw;
           position: absolute;
           top: 0;
           right: 0; }
-        .section4 .container .col_right .container .sec4_4th {
+        .section4 .container .col_right .container_col_right .sec4_4th {
           width: 18.75vw;
           height: 15.75vw;
           position: absolute;
           top: 25.25vw;
           right: 24.5vw; }
-        .section4 .container .col_right .container .sec4_5th {
+        .section4 .container .col_right .container_col_right .sec4_5th {
           width: 14.25vw;
           height: 12.75vw;
           position: absolute;
           top: 12.25vw;
           right: 37vw; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section4 .container {
-    padding: 12.5vh 0 12.5vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section4 .container {
-    padding: 17.5vh 0 17.5vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section4 .container {
-    padding: 12.5vh 0 12.5vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section4 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 65%;
+    max-height: 140vw;
+    min-height: 120vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section4 .container .col {
-      width: 100%; }
     .section4 .container .col_right {
-      height: 50%; }
-      .section4 .container .col_right .container {
-        height: 52.5vw;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section4 .container .col_right .container_col_right {
+        height: 50vw;
         width: 65vw;
-        margin: 5vh auto; }
-        .section4 .container .col_right .container .sec4_1st {
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section4 .container .col_right .container_col_right .sec4_1st {
           width: 34.69vw;
           height: 31.25vw;
           top: 0;
           right: 19.75vw; }
-        .section4 .container .col_right .container .sec4_2nd {
+        .section4 .container .col_right .container_col_right .sec4_2nd {
           width: 28.13vw;
           height: 25vw;
           top: 0;
           right: 7.75vw; }
-        .section4 .container .col_right .container .sec4_3rd {
+        .section4 .container .col_right .container_col_right .sec4_3rd {
           width: 13.44vw;
           height: 12.19vw;
           top: 0;
           right: 0; }
-        .section4 .container .col_right .container .sec4_4th {
+        .section4 .container .col_right .container_col_right .sec4_4th {
           width: 23.44vw;
           height: 19.69vw;
           top: 31.5vw;
           right: 30.75vw; }
-        .section4 .container .col_right .container .sec4_5th {
+        .section4 .container .col_right .container_col_right .sec4_5th {
           width: 17.81vw;
           height: 15.94vw;
           top: 15.25vw;
           right: 46.5vw; }
     .section4 .container .col_left {
-      height: 50%; }
-      .section4 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section4 .container .col_left .container h1 {
-          font-size: 8vw; }
-        .section4 .container .col_left .container p {
-          width: 60vw;
-          font-size: 4vw; } }
-.section5 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
-  .section5 .container {
-    height: 87.5vh;
-    margin: 0;
-    padding: 7.5vh 0 5vh 7.5vw;
-    display: flex;
-    flex-direction: row; }
-    .section5 .container .col {
-      width: 50%;
+      height: 50%;
+      width: 100%;
       margin: 0;
       padding: 0;
-      text-align: center; }
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section4 .container .col_left .container_col_left {
+        height: 55vw;
+        width: 62vw;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section4 .container .col_left .container_col_left h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section4 .container .col_left .container_col_left p {
+          margin: 0;
+          padding: 0;
+          width: 60vw;
+          font-size: 4vw;
+          font-weight: 200; } }
+.section5 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section5 .container {
+    height: 41.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row; }
     .section5 .container .col_left {
-      width: 50vw;
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0; }
-      .section5 .container .col_left .container {
+      .section5 .container .col_left .container_col_left {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative; }
-        .section5 .container .col_left .container .sec5_1st {
+        .section5 .container .col_left .container_col_left .sec5_1st {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 0;
           left: 0; }
-        .section5 .container .col_left .container .sec5_2nd {
+        .section5 .container .col_left .container_col_left .sec5_2nd {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
           left: 6vw; }
-        .section5 .container .col_left .container .sec5_3rd {
+        .section5 .container .col_left .container_col_left .sec5_3rd {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 3vw;
           left: 11.75vw; }
-        .section5 .container .col_left .container .sec5_4th {
+        .section5 .container .col_left .container_col_left .sec5_4th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 14.5vw;
           left: 17.5vw; }
-        .section5 .container .col_left .container .sec5_5th {
+        .section5 .container .col_left .container_col_left .sec5_5th {
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 0;
           left: 23.25vw; }
-        .section5 .container .col_left .container .sec5_6th {
+        .section5 .container .col_left .container_col_left .sec5_6th {
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
           left: 29vw; }
-        .section5 .container .col_left .container .sec5_7th {
+        .section5 .container .col_left .container_col_left .sec5_7th {
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 9.5vw;
           left: 34.75vw; }
-        .section5 .container .col_left .container .sec5_8th {
+        .section5 .container .col_left .container_col_left .sec5_8th {
           width: 5vw;
           height: 24.5vw;
           position: absolute;
           top: 15.5vw;
           left: 40.5vw; }
     .section5 .container .col_right {
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0; }
-      .section5 .container .col_right .container {
-        margin: 0;
-        padding: 6.5vw 0;
+      .section5 .container .col_right .container_col_right {
+        height: 60%;
+        width: 95%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column; }
-        .section5 .container .col_right .container h1 {
-          margin: 0;
+        .section5 .container .col_right .container_col_right h1 {
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600; }
-        .section5 .container .col_right .container p {
-          margin: 0 auto;
+        .section5 .container .col_right .container_col_right p {
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
           font-weight: 200; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
+@media only screen and (max-width: 850px) {
   .section5 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section5 .container {
-    padding: 17.5vh 0 17.5vh 7.5vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section5 .container {
-    padding: 15vh 0 15vh 7.5vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
-  .section5 .container {
-    height: 70vh;
-    padding: 15vh 0;
+    height: 60%;
+    max-height: 130vw;
+    min-height: 110vw;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section5 .container .col {
-      width: 100%; }
     .section5 .container .col_left {
-      height: 50%; }
-      .section5 .container .col_left .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto; }
-        .section5 .container .col_left .container .sec5_1st {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section5 .container .col_left .container_col_left {
+        height: 45vw;
+        width: 62vw;
+        margin: auto;
+        padding: 0;
+        position: relative; }
+        .section5 .container .col_left .container_col_left .sec5_1st {
           width: 6.25vw;
           height: 15.94vw;
           position: absolute;
           top: 0;
           left: 0; }
-        .section5 .container .col_left .container .sec5_2nd {
+        .section5 .container .col_left .container_col_left .sec5_2nd {
           width: 6.25vw;
           height: 44.38vw;
           position: absolute;
           top: 0;
           left: 8vw; }
-        .section5 .container .col_left .container .sec5_3rd {
+        .section5 .container .col_left .container_col_left .sec5_3rd {
           width: 6.25vw;
           height: 30.31vw;
           position: absolute;
           top: 3vw;
           left: 16vw; }
-        .section5 .container .col_left .container .sec5_4th {
+        .section5 .container .col_left .container_col_left .sec5_4th {
           width: 6.25vw;
           height: 15.94vw;
           position: absolute;
           top: 14.5vw;
           left: 24vw; }
-        .section5 .container .col_left .container .sec5_5th {
+        .section5 .container .col_left .container_col_left .sec5_5th {
           width: 6.25vw;
           height: 30.31vw;
           position: absolute;
           top: 0;
           left: 32vw; }
-        .section5 .container .col_left .container .sec5_6th {
+        .section5 .container .col_left .container_col_left .sec5_6th {
           width: 6.25vw;
           height: 44.38vw;
           position: absolute;
           top: 0;
           left: 40vw; }
-        .section5 .container .col_left .container .sec5_7th {
+        .section5 .container .col_left .container_col_left .sec5_7th {
           width: 6.25vw;
           height: 15.94vw;
           position: absolute;
           top: 12.5vw;
           left: 48vw; }
-        .section5 .container .col_left .container .sec5_8th {
+        .section5 .container .col_left .container_col_left .sec5_8th {
           width: 6.25vw;
           height: 30.6vw;
           position: absolute;
           top: 14vw;
           left: 56vw; }
     .section5 .container .col_right {
-      height: 50%; }
-      .section5 .container .col_right .container {
-        height: 52.5vw;
-        width: 65vw;
-        margin: 5vh auto;
-        padding: 0; }
-        .section5 .container .col_right .container h1 {
-          font-size: 8vw; }
-        .section5 .container .col_right .container p {
+      height: 50%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section5 .container .col_right .container_col_right {
+        height: 55vw;
+        width: 60vw;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column; }
+        .section5 .container .col_right .container_col_right h1 {
+          margin: auto;
+          padding: 0;
+          font-size: 8vw;
+          font-weight: 600; }
+        .section5 .container .col_right .container_col_right p {
+          margin: 0;
+          padding: 0;
           width: 60vw;
-          font-size: 4vw; } }
+          font-size: 4vw;
+          font-weight: 200; } }
 .section6 {
-  height: 100vh;
-  margin: auto;
-  padding: 0; }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
   .section6 .container {
-    height: 85vh;
-    margin: 0;
-    padding: 15vh 0 0 0;
+    height: 45vw;
+    width: 85vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row; }
     .section6 .container .col_left {
-      width: 60%;
+      height: 100%;
+      width: 55%;
       margin: 0;
       padding: 0; }
-      .section6 .container .col_left .container {
+      .section6 .container .col_left .container_col_left {
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction: row;
-        text-align: center; }
-        .section6 .container .col_left .container .col1 {
+        flex-direction: row; }
+        .section6 .container .col_left .container_col_left .col1 {
+          height: 100%;
           width: 40%;
           margin: 0;
-          padding: 0; }
-          .section6 .container .col_left .container .col1 form {
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col1 form {
             width: 15vw;
-            margin: 4vw 6vw;
+            margin: auto;
             padding: 2vw;
             text-align: left;
             border: 0.05vw solid #D3D3D3;
             border-radius: 10px;
             font-family: 'Open Sans';
             font-weight: 200; }
-            .section6 .container .col_left .container .col1 form h4 {
+            .section6 .container .col_left .container_col_left .col1 form h4 {
               margin: 0;
               padding: 0;
               font-size: 2vw;
               font-weight: 200; }
-            .section6 .container .col_left .container .col1 form input, .section6 .container .col_left .container .col1 form textarea {
+            .section6 .container .col_left .container_col_left .col1 form input, .section6 .container .col_left .container_col_left .col1 form textarea {
               width: 100%;
               margin: 0 0 1vw 0;
               padding: 0.5vw 0;
               border: 0.05vw solid #D3D3D3;
               border-radius: 3px; }
-            .section6 .container .col_left .container .col1 form button {
+            .section6 .container .col_left .container_col_left .col1 form .container_form_btn button {
               margin: 0 4vw;
               padding: 0.75vw 2vw;
               background-color: white;
               border: 0.05vw solid #D3D3D3;
               border-radius: 3px;
               font-family: 'Open Sans'; }
-        .section6 .container .col_left .container .col2 {
-          width: 60%; }
-          .section6 .container .col_left .container .col2 .container {
+        .section6 .container .col_left .container_col_left .col2 {
+          height: 100%;
+          width: 60%;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col2 .container_col2 {
             height: 20vw;
-            margin: 7vw 0 5vw 2.5vw;
+            margin: auto;
             padding: 0;
             display: flex;
             flex-direction: column; }
-            .section6 .container .col_left .container .col2 .container .row {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 .row {
               margin: 1vw 0;
               padding: 0;
               display: flex;
               flex-direction: row; }
-            .section6 .container .col_left .container .col2 .container h4 {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 h4 {
               margin: 0.7vw 0;
               padding: 0;
               font-size: 2vw;
               font-weight: 200; }
-            .section6 .container .col_left .container .col2 .container i {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 i {
               margin: 1vw 2vw;
               color: #D3D3D3;
               font-size: 2vw; }
     .section6 .container .col_right {
-      width: 40%;
+      height: 100%;
+      width: 45%;
       margin: 0;
-      padding: 0; }
-      .section6 .container .col_right .container {
-        margin: 2.5vh 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_right .container_col_right {
+        height: 70%;
+        width: 85%;
+        margin: auto;
         padding: 0;
         display: flex;
-        flex-direction: column;
-        text-align: center; }
-        .section6 .container .col_right .container img {
+        flex-direction: column; }
+        .section6 .container .col_right .container_col_right img {
           height: 30vw;
           width: 32.5vw; }
-        .section6 .container .col_right .container h4 {
-          margin: 2.5vh 7.5vw 0 0;
+        .section6 .container .col_right .container_col_right h4 {
+          margin: auto;
           padding: 0;
-          font-size: 2vw;
+          font-size: 1.5vw;
           font-weight: 200; }
 
-@media only screen and (min-height: 750px) and (max-height: 799px) {
-  .section6 .container {
-    padding: 20vh 0 0 1vw; } }
-@media only screen and (min-height: 800px) and (max-height: 999px) {
-  .section6 .container {
-    padding: 22.5vh 0 0 1vw; } }
-@media only screen and (min-height: 1000px) and (max-height: 1500px) {
-  .section6 .container {
-    padding: 20vh 0 0 1vw; } }
-@media only screen and (max-height: 850px) and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
   .section6 .container {
     height: 100vh;
-    padding: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
     flex-direction: column; }
-    .section6 .container .col {
-      width: 100%; }
     .section6 .container .col_left {
-      height: 70%; }
-      .section6 .container .col_left .container {
-        margin-top: 2.5vh;
+      height: 70%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_left .container_col_left {
         flex-direction: column; }
-        .section6 .container .col_left .container .col1 {
+        .section6 .container .col_left .container_col_left .col1 {
+          height: 80%;
           width: 100%; }
-          .section6 .container .col_left .container .col1 form {
+          .section6 .container .col_left .container_col_left .col1 form {
             width: 60vw;
             margin: auto;
-            padding: 4vw;
-            border: 0.25vw solid #D3D3D3; }
-            .section6 .container .col_left .container .col1 form h4 {
-              margin: 2vw 0;
-              font-size: 5vw; }
-            .section6 .container .col_left .container .col1 form input, .section6 .container .col_left .container .col1 form textarea {
-              margin: 2vw 0 1vw 0;
-              padding: 1vw 0;
+            padding: 2vh;
+            border: 0.25vw solid #D3D3D3;
+            font-size: 2.5vh; }
+            .section6 .container .col_left .container_col_left .col1 form h4 {
+              margin: 1vh 0;
+              font-size: 2.5vh; }
+            .section6 .container .col_left .container_col_left .col1 form input, .section6 .container .col_left .container_col_left .col1 form textarea {
+              margin: 1vh 0 0.5vh 0;
+              padding: 0.5vh 0;
               border: 0.25vw solid #D3D3D3; }
-            .section6 .container .col_left .container .col1 form button {
-              margin: 2vw 20vw;
-              border: 0.25vw solid #D3D3D3;
-              font-size: 4vw; }
-        .section6 .container .col_left .container .col2 {
-          width: 100%; }
-          .section6 .container .col_left .container .col2 .container {
-            margin: 5vw 12.5vw;
+            .section6 .container .col_left .container_col_left .col1 form .container_form_btn {
+              text-align: center; }
+              .section6 .container .col_left .container_col_left .col1 form .container_form_btn button {
+                margin: auto;
+                border: 0.25vw solid #D3D3D3;
+                font-size: 4vw; }
+        .section6 .container .col_left .container_col_left .col2 {
+          height: 20%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section6 .container .col_left .container_col_left .col2 .container_col2 {
+            height: 75%;
+            width: 75%;
+            margin: auto;
             padding: 0;
             display: flex;
             flex-wrap: wrap; }
-            .section6 .container .col_left .container .col2 .container .row {
+            .section6 .container .col_left .container_col_left .col2 .container_col2 .row {
               margin: 1vw 0;
               padding: 0; }
-              .section6 .container .col_left .container .col2 .container .row h4 {
+              .section6 .container .col_left .container_col_left .col2 .container_col2 .row h4 {
                 margin: 0.7vw 0;
                 padding: 0;
-                font-size: 4vw;
+                font-size: 2vh;
                 font-weight: 200; }
-              .section6 .container .col_left .container .col2 .container .row i {
+              .section6 .container .col_left .container_col_left .col2 .container_col2 .row i {
                 margin: 1vw 2vw;
                 color: #D3D3D3;
-                font-size: 5vw; }
+                font-size: 2.5vh; }
     .section6 .container .col_right {
       height: 30%;
-      width: 100%; }
-      .section6 .container .col_right .container {
-        height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .section6 .container .col_right .container_col_right {
+        height: 45vw;
+        width: 80vw;
         margin: 0 auto; }
-        .section6 .container .col_right .container img {
+        .section6 .container .col_right .container_col_right img {
           height: 35vw;
           width: 37.5vw;
           margin: 0 auto; }
-        .section6 .container .col_right .container h4 {
+        .section6 .container .col_right .container_col_right h4 {
           margin: 2vw auto;
           font-size: 4vw; } }
 body {

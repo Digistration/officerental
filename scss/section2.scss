@@ -1,40 +1,41 @@
 .section2{
-  height: 100vh;
-  margin: auto;
+  height: 100%;
+  margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   .container{
-    height: 87.5vh;
-    margin: 0;
-    padding: 7.5vh 0 5vh 0;
+    height: 41.5vw;
+    width: 80vw;
+    margin: auto;
+    padding: 0;
     display: flex;
     flex-direction: row;
 
-    .col{
-      width: 50%;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
     .col_left{
+      height: 100%;
+      width: 39%;
       margin: 0;
       padding: 0;
 
-      .container{
-        margin: 0;
-        padding: 8vw 0;
+      .container_col_left{
+        height: 60%;
+        width: 95%;
+        margin: 7.5vw auto;
+        padding: 0;
         display: flex;
         flex-direction: column;
 
         h1{
-          margin: 0;
+          margin: auto;
           padding: 0;
           font-size: 4vw;
           font-weight: 600;
         }
         p{
-          margin: 0 auto;
+          margin: 0;
           padding: 0;
           width: 30vw;
           font-size: 2vw;
@@ -42,11 +43,16 @@
         }
       }
     }
+
     .col_right{
+      height: 100%;
+      width: 61%;
       margin: 0;
       padding: 0;
-      
-      .container{
+
+      .container_col_right{
+        height: 100%;
+        width: 100%;
         margin: 0;
         padding: 0;
         position: relative;
@@ -56,101 +62,84 @@
           height: 12.75vw;
           position: absolute;
           top: 0;
-          right: 6.5vw;
+          right: 0vw;
         }
         .sec2_2nd{
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 12.5vw;
+          right: 6vw;
         }
         .sec2_3rd{
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 3vw;
-          right: 18.25vw;
+          right: 11.5vw;
         }
         .sec2_4th{
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 14.5vw;
-          right: 24.25vw;
+          right: 17.75vw;
         }
         .sec2_5th{
           width: 5vw;
           height: 24.25vw;
           position: absolute;
           top: 0;
-          right: 30vw;
+          right: 23.5vw;
         }
         .sec2_6th{
           width: 5vw;
           height: 35.5vw;
           position: absolute;
           top: 0;
-          right: 36vw;
+          right: 29.5vw;
         }
         .sec2_7th{
           width: 5vw;
           height: 12.75vw;
           position: absolute;
           top: 9.5vw;
-          right: 41.75vw;
+          right: 35.25vw;
         }
         .sec2_8th{
           width: 5vw;
           height: 24.5vw;
           position: absolute;
           top: 15.5vw;
-          right: 47.5vw;
+          right: 41vw;
         }
       }
     }
   }
 }
 
-@media only screen and (min-height: 750px) and (max-height: 799px){
+@media only screen and (max-width: 850px){
   .section2{
     .container{
-      padding: 15vh 0 15vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 800px) and (max-height: 999px){
-  .section2{
-    .container{
-      padding: 17.5vh 0 17.5vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (min-height: 1000px) and (max-height: 1500px){
-  .section2{
-    .container{
-      padding: 15vh 0 15vh 7.5vw;
-    }
-  }
-}
-
-@media only screen and (max-height: 850px) and (max-width: 850px){
-  .section2{
-    .container{
-      height: 70vh;
-      padding: 15vh 0;
+      height: 60%;
+      max-height: 130vw;
+      min-height: 110vw;
+      width: 100%;
+      margin: auto;
+      display: flex;
       flex-direction: column;
-      .col{
-        width: 100%
-      }
       .col_right{
         height: 50%;
-        .container{
-          height: 52.5vw;
-          width: 65vw;
-          margin: 5vh auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_right{
+          height: 46vw;
+          width: 61vw;
+          margin: auto;
+          padding: 0;
+          position: relative;
           .sec2_1st{
             width: 6.25vw;
             height: 15.94vw;
@@ -203,17 +192,31 @@
       }
       .col_left{
         height: 50%;
-        .container{
-          height: 52.5vw;
-          width: 65vw;
-          margin: 5vh auto;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .container_col_left{
+          height: 50vw;
+          width: 62vw;
+          margin: auto;
           padding: 0;
+          display: flex;
+          flex-direction: column;
           h1{
+            margin: auto;
+            padding: 0;
             font-size: 8vw;
+            font-weight: 600;
           }
           p{
+            margin: 0;
+            padding: 0;
             width: 60vw;
             font-size: 4vw;
+            font-weight: 200;
           }
         }
       }
