@@ -12,12 +12,13 @@ sr.reveal('.hero', {
 // INFO
 sr.reveal('.sec1h1', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.sec1p', {
   duration: 1500,
-  // delay: 500,
+  delay: 250,
   distance: '10%',
   origin: 'bottom'
 })
@@ -52,12 +53,13 @@ sr.reveal('.sec1_5th', {
 // INFO
 sr.reveal('.sec2h1', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.sec2p', {
   duration: 1500,
-  // delay: 500,
+  delay: 250,
   distance: '10%',
   origin: 'bottom'
 })
@@ -107,12 +109,13 @@ sr.reveal('.sec2_8th', {
 // INFO
 sr.reveal('.sec3h1', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.sec3p', {
   duration: 1500,
-  // delay: 500,
+  delay: 250,
   distance: '10%',
   origin: 'bottom'
 })
@@ -147,12 +150,13 @@ sr.reveal('.sec3_5th', {
 // INFO
 sr.reveal('.sec4h1', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.sec4p', {
   duration: 1500,
-  // delay: 500,
+  delay: 250,
   distance: '10%',
   origin: 'bottom'
 })
@@ -187,12 +191,13 @@ sr.reveal('.sec4_5th', {
 // INFO
 sr.reveal('.sec5h1', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.sec5p', {
   duration: 1500,
-  // delay: 500,
+  delay: 250,
   distance: '10%',
   origin: 'bottom'
 })
@@ -242,11 +247,13 @@ sr.reveal('.sec5_8th', {
 // INFO
 sr.reveal('.quote', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
 sr.reveal('.contact', {
   duration: 1500,
+  delay: 250,
   distance: '50%',
   origin: 'bottom'
 })
